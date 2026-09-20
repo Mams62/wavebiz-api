@@ -23,3 +23,4 @@ Spring Boot and PostgreSQL backend shared by the WaveBiz Android and PWA clients
 
 Java 17 and Maven 3.9+ are required. Authentication and staff authorization are the next security milestone. Do not expose this milestone publicly as a production API until those controls are implemented.
 
+In IntelliJ IDEA, import `pom.xml` as a Maven project and select a Java 17 Project SDK. The Maven compiler release is pinned to Java 17 in `pom.xml`.
